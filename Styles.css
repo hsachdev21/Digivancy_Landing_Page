@@ -1,0 +1,277 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Contact Form Styles */
+form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* ... Previous Media Queries ... */
+    
+    .services {
+        flex-direction: column;
+    }
+    
+    .service {
+        margin: 0.5rem 0;
+    }
+    
+    form {
+        padding: 1.5rem;
+    }
+    
+    form label {
+        font-size: 0.9rem;
+    }
+    
+    form input,
+    form textarea {
+        padding: 0.3rem;
+    }
+    
+    form button {
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+
+/* ... Previous CSS Code ... */
+
+/* Hover Effects */
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Background and Color Enhancements */
+.header-content {
+    background-color: #222;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 3rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Responsive Design for Contact Form */
+@media screen and (max-width: 768px) {
+    /* ... Previous Media Queries ... */
+    
+    .header-content {
+        padding: 1rem;
+    }
+}
+
+
+
+/* ... Rest of your CSS ... */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+    
+    nav ul {
+        margin-top: 1rem;
+    }
+    
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+    }
+    
+    .section {
+        padding: 1.5rem;
+    }
+    
+    .header-content {
+        padding: 1rem;
+    }
+    
+    .services {
+        flex-direction: column;
+    }
+    
+    .service {
+        margin: 0.5rem 0;
+    }
+    
+    form {
+        padding: 1.5rem;
+    }
+    
+    form label {
+        font-size: 0.9rem;
+    }
+    
+    form input,
+    form textarea {
+        padding: 0.3rem;
+    }
+    
+    form button {
+        padding: 0.4rem 0.8rem;
+    }
+}
